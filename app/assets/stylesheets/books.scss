@@ -4,14 +4,8 @@
 
 
 table {
-
  color: black;
 }
-
-tbody{
-
-}
-
 
 .index_title{
   padding: 0 50px 5px 0;
@@ -21,7 +15,7 @@ tbody{
   padding: 0 50px 5px 0;
 }
 
-a{
+.index_link{
   padding: 0 10px 5px 0;
   color: black;
 }
@@ -32,18 +26,24 @@ a:hover {
 }
 
 .index_h1{
-  margin: 20px;
+  margin: 10px 0 10px 0;
 }
 
-form{
-  margin: 20px;
+.input_form{
+  margin: 10px;
   width: 200px;
   display: flex;
   flex-direction: column;
+  font-size: 20px;
 }
 
-.book_body{
+.input_title{
+  font-size: 20px;
+}
+
+.input_body{
   margin: 20px 0 0 0 ;
+  font-size: 20px;
 }
 
 .flash{
@@ -55,9 +55,27 @@ form{
 }
 
 .show_span{
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .show_box{
-  margin: 30px 0;
+  margin: 20px 30px;
+}
+
+.errors_box{
+  width: 500px;
+  border: 5px solid crimson;
+}
+
+.errors_title{
+  padding: 0 10px;
+  color: white;
+  background-color: crimson;
+}
+
+.errors_body{
+  text-align: center;
+  list-style-position: inside;
+  padding: 30px;
+  background-color: whitesmoke;
 }
