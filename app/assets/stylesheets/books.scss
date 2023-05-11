@@ -1,3 +1,63 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+table {
+
+ color: black;
+}
+
+tbody{
+
+}
+
+
+.index_title{
+  padding: 0 50px 5px 0;
+}
+
+.index_body{
+  padding: 0 50px 5px 0;
+}
+
+a{
+  padding: 0 10px 5px 0;
+  color: black;
+}
+
+a:hover {
+  color: white;
+  background-color: skyblue;
+}
+
+.index_h1{
+  margin: 20px;
+}
+
+form{
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book_body{
+  margin: 20px 0 0 0 ;
+}
+
+.flash{
+  width: auto;
+  color: white;
+  background-color: green;
+  font-size: 20px;
+  text-align: center;
+}
+
+.show_span{
+  font-size: 30px;
+}
+
+.show_box{
+  margin: 30px 0;
+}
